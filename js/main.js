@@ -1,19 +1,13 @@
-// Toán tử gán
+//  Toán tử chuỗi
 
-// =  --> x = y
+// Tương tự như toán tử gán
 
-var a = 1; // Thì a lúc này là vế trái 1 là vế phải, vế phải sẽ được gán giá trị cho vế trái
+// Cũng sử dụng được 2 toán tử là "=" và "+="
 
-// +=  --> x = x + y
+// VD:
 
-var a = 1;
+var firstName = 'Lê Trần Tấn';
+var lastName = 'Tài';
 
-a += 3; // lúc này a = 4 vì a += 3 tương đương với a = a + 3
-
-// Tương tự như vậy với các toán tử gán
-/*
-1)  -=
-2)  *=
-3)  /=
-4)  **=
-*/
+var fullName = firstName + lastName;
+// lúc này fullName sẽ bằng chuỗi "Lê Trần TấnTài"

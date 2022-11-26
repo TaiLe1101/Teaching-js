@@ -50,3 +50,5 @@
   - _Giảm đi 1 giá trị cho một số_
 
 ## 06. Toán tử gán
+
+## 07. Toán tử chuỗi
