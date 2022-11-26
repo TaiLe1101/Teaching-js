@@ -36,3 +36,15 @@
   - Toán tử gán - Assignment
   - Toán tử so sánh - Comparison
   - Toán tử logic - Logical
+
+## 05. Toán tử số học
+
+- Một số toán tử số học
+  - _Cộng_
+  - _Trừ_
+  - _Nhân_
+  - _Lũy thừa_
+  - _Chia_
+  - _Chia lấy dư_
+  - _Tăng thêm 1 giá trị cho một số_
+  - _Giảm đi 1 giá trị cho một số_
