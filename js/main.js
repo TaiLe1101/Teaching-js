@@ -1,68 +1,19 @@
+// Toán tử gán
+
+// =  --> x = y
+
+var a = 1; // Thì a lúc này là vế trái 1 là vế phải, vế phải sẽ được gán giá trị cho vế trái
+
+// +=  --> x = x + y
+
+var a = 1;
+
+a += 3; // lúc này a = 4 vì a += 3 tương đương với a = a + 3
+
+// Tương tự như vậy với các toán tử gán
 /*
-    - +     --> "Cộng"
-    - -     --> "Trừ"
-    - *     --> "Nhân"
-    - **    --> "Lũy thừa"
-    - /     --> "Chia"
-    - %     --> "Chia lấy dư"
-    - ++    --> "Tăng một giá trị số"
-    - --    --> "Giảm một giá trị số"
+1)  -=
+2)  *=
+3)  /=
+4)  **=
 */
-
-// Cộng
-
-var a = 1;
-var b = 2;
-
-var c = a + b; // c = 3
-
-// Trừ
-
-var a = 1;
-var b = 2;
-
-var c = a - b; // c = -1
-
-// Nhân
-
-var a = 1;
-var b = 2;
-
-var c = a * b; // c = 2
-
-// Lũy thừa
-
-var a = 1;
-var b = 2;
-
-var c = a ** b; // c = 1
-
-// Chia
-
-var a = 6;
-var b = 2;
-
-var c = a / b; // c = 3
-
-// Chia Lấy Dư
-
-var a = 6;
-var b = 2;
-
-var c = a + b; // c = 0 --> Vì 6 / 3 = 2 dư 0
-
-// Toán tử ++
-
-var a = 1;
-
-a++; // Tương đương:  a = a + 1
-
-console.log(a); // => a = 2
-
-// Toán tử --
-
-var a = 1;
-
-a--; // Tương đương:  a = a - 1
-
-console.log(a); // => a = 0
